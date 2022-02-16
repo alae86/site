@@ -1,0 +1,103 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,300;1,400;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+.carousel-item {
+	height: 100vh;
+	min-height: 300px;
+	
+}
+.carousel-caption {
+	bottom: 220px;
+}
+.carousel-caption h5 {
+	font-size: 45px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 25px;
+	font-family: merienda;
+}
+.carousel-caption p {
+	width: 60%;
+	margin: auto;
+	font-size: 24px;
+	line-height: 1.9;
+	font-family: merienda;
+}
+.link-devu{
+	font-family: 'roboto' sans-serif;
+	font-size: 18px;
+	font-weight: 300;
+}
+.link-devu:hover{
+	background-color: #f24405;
+	color: white;
+}
+.link-devu button a:hover {
+	color: #f24405;
+}
+
+
+.navbar-nav a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: white;
+}
+
+.btn-warning:hover{
+	color: white;
+	background-color: #ffa100;
+
+}
+.navbar-nav li a:hover{
+    color: sandybrown;
+}
+.navbar-light .navbar-brand {
+
+	
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+	color: #ffa100;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #ffa100;
+
+}
+.navbar-nav {
+	text-align: center;
+}
+.nav-link {
+	padding: .2rem 1rem;
+}
+.nav-link.active, .nav-link:focus {
+	color: #fff;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+	background: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #ffa100;
+}
+.w-100 {
+	height: 100vh;
+	
+}
+footer p a:hover{
+color:#ffa100 ;
+}
+@media only screen and (max-width: 767px) {
+	.navbar-nav.ml-auto {
+		background: rgba(0, 0, 0, 0.5);
+	}
+	.navbar-nav a {
+		font-size: 14px;
+		font-weight: normal;
+	}
+}
+
